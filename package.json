@@ -4,12 +4,12 @@
   "description": "Returns a key based on its value weighted against other keys in the Object",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node ./node_modules/tap/bin/run.js ./lib/tests/*.js",
+    "test": "npm run compile && node ./node_modules/tap/bin/run.js ./lib/tests/*.js",
     "babel-watch": "babel src --watch --out-dir lib",
     "compile": "babel src --out-dir lib",
     "preversion": "npm test",
     "prepublish": "npm run compile && npm test",
-    "postpublish": "rm -rf ./lib/*.js"
+    "postpublish": "rm -rf ./lib/*.js && rm -rf ./lib/tests/*.js"
   },
   "repository": {
     "type": "git",
