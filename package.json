@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "node ./node_modules/tap/bin/run.js ./lib/tests/*.js",
-    "babel-watch": "babel src --watch --out-dir lib"
+    "babel-watch": "babel src --watch --out-dir lib",
+    "compile": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
