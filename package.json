@@ -1,0 +1,24 @@
+{
+  "name": "pick-one-by-weight",
+  "version": "1.0.0",
+  "description": "Returns a key based on its value weighted against other keys in the hash",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./node_modules/tap/bin/run.js ./lib/test/*.js",
+    "babel-watch": "babel src --watch --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swang/pick-one-by-weight.git"
+  },
+  "author": "Shuan Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swang/pick-one-by-weight/issues"
+  },
+  "homepage": "https://github.com/swang/pick-one-by-weight#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tap": "^1.4.1"
+  }
+}
