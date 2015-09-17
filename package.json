@@ -1,10 +1,10 @@
 {
   "name": "pick-one-by-weight",
   "version": "1.0.0",
-  "description": "Returns a key based on its value weighted against other keys in the hash",
+  "description": "Returns a key based on its value weighted against other keys in the Object",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node ./node_modules/tap/bin/run.js ./lib/test/*.js",
+    "test": "node ./node_modules/tap/bin/run.js ./lib/tests/*.js",
     "babel-watch": "babel src --watch --out-dir lib"
   },
   "repository": {
